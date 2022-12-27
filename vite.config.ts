@@ -11,6 +11,9 @@ export default defineConfig({
     },
   },
   resolve: {
-    alias: [{ find: "~bulma", replacement: "bulma" }],
+    alias: [
+      { find: "~bulma", replacement: "bulma" },
+      { find: "xlsx-populate", replacement: "xlsx-populate/browser/xlsx-populate" },
+    ],
   },
 });
