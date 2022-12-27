@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "files": ["src/main.tsx"],
+  "compilerOptions": {
+    "noEmit": true
+  }
+}
